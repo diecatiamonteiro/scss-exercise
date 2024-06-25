@@ -1,0 +1,23 @@
+.hero {
+  h2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .button {
+    @include flexSetup;
+    gap: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 8px 3px;
+    width: 200px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

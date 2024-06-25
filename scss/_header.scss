@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  margin-bottom: 50px;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo {
+   @include flexSetup;
+   gap: 20px;
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}

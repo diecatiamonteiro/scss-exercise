@@ -1,0 +1,9 @@
+@mixin bodySetup {
+  margin: 20px 150px;
+}
+
+@mixin flexSetup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
